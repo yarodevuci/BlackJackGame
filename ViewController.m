@@ -15,6 +15,10 @@
 @synthesize button1, button2, button3, exitbutton;
 @synthesize theBlackJack;
 
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
+
 - (void)viewDidLoad
 {
     autoPlay = NO;
